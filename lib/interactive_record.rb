@@ -58,7 +58,7 @@ class InteractiveRecord
     key = attribute.keys[0].to_s
     value = attribute.values[0] 
     
-    sql = ""
+    sql = "SELECT * FROM #{self.table_name} WHERE name = ?"
   end 
   
 end
