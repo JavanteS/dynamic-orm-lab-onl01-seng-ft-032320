@@ -57,6 +57,8 @@ class InteractiveRecord
     binding.pry
     key = attribute.keys[0].to_s
     value = attribute.values[0] 
+    
+    sql = ""
   end 
   
 end
