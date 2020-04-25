@@ -45,4 +45,10 @@ class InteractiveRecord
   def save
   end 
   
+  def self.find_by_name
+  end 
+  
+  def self.find_by 
+  end 
+  
 end
