@@ -43,6 +43,7 @@ class InteractiveRecord
   end 
   
   def save
+    
   end 
   
   def self.find_by_name(name)
